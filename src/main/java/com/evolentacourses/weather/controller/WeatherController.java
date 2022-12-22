@@ -19,7 +19,7 @@ public class WeatherController {
 
     @Autowired
     private RestTemplate restTemplate;
-    @Value("${appId}")
+    @Value("${appid}")
     private String appId;
     @Value("${url.weather}")
     private String urlWeather;
